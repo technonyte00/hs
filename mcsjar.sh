@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /tmp
 pkill -f "server.jar" 2>/dev/null
 rm -f /tmp/world/session.lock /tmp/p.log /tmp/mc.log
 echo "downloading jre"
